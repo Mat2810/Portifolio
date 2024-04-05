@@ -76,13 +76,21 @@ h3 {
 .bitEmoji {
   display: flex;
   justify-content: center;
+  width: 230px;
+  height: 230px;
   border: 1px solid black;
+  margin-top: 20%;
+  margin-left: 35%;
+  border-radius: 650px;
+  background: linear-gradient(rgb(73.33%, 56.08%, 81.57%), black);
 }
+
 
 .emojiContainer {
   display: flex;
   height: 100%;
   width: 100%;
+  flex-direction: column;
 }
 
 .container {
@@ -123,4 +131,64 @@ p {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+}
+
+.MatDev {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  padding-top: 6%;
+  justify-content: center;
+}
+
+.underContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  padding-top: 10%;
+}
+
+.underIcons {
+  display: flex;
+  font-size: 25px;
+  padding: 20px;
+  padding-left: 10%;
+}
+
+.skills {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.panelSkills {
+  display: flex;
+  width: 100%;
+  height: 24%;
+  background-color: black;
+  justify-content: center;
+}
+
+.skillsTitle {
+  display: flex;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.skillsContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(black,rgb(73.33%, 56.08%, 81.57%));
 }
