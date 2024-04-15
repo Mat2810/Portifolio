@@ -26,8 +26,8 @@
   <section class="home" id="home">
     <div id="homePage">
       <div id="welcomePage">
-        <h1 id="WELCOME">WELCOME .</h1>
-        <p>
+        <h1 id="WELCOME" data-aos="fade-right">WELCOME .</h1>
+        <p data-aos="fade-right">
           Sou Matheus Oliveira, um desenvolvedor front-end recentemente
           ingressado nessa área. Apesar da minha pouca experiência, já
           desenvolvi alguns projetos relevantes nesse campo. Tenho grande
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="emojiContainer">
-      <div class="bitEmoji">
+      <div class="bitEmoji" data-aos="fade-left">
         <img
           src="../assets/img/laptop wave.png"
           alt=""
@@ -49,22 +49,29 @@
           height="200px"
         />
       </div>
-      <h1 class="MatDev">MatDev</h1>
+      <h1 class="MatDev">&lt; MatDev/ &gt;</h1>
       <div class="underContainer">
-        <mat-icon
-          aria-hidden="false"
-          aria-label="Example home icon"
-          fontIcon="email"
-          class="underIcons"
-        ></mat-icon>
-        <mat-icon
-          aria-hidden="false"
-          aria-label="Example home icon"
-          fontIcon="call"
-          class="underIcons"
-        ></mat-icon>
+        <div class="matIcon">
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="email"
+            class="underIcons"
+          >
+          </mat-icon>
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="call"
+            class="underIcons"
+          ></mat-icon>
+        </div>
+        <div class="Description">
+          <h3>{{ "mat.oliveira2810@gmail.com" }}</h3>
+          <h3>+34 611 339 695</h3></div>
       </div>
     </div>
+
     <div class="infoContainer"></div>
   </section>
   <section id="skills" class="skills">
@@ -86,7 +93,14 @@
           <h3 class="logoTitleSimple">CSS</h3>
           <div class="loadingContainer"><div class="loadingCSS"></div></div>
         </div>
-        <div class="skillsIconsContainer"><div class="loading"></div></div>
+        <div class="skillsIconsContainer">
+          <img
+            class="iconsImg"
+            src="../assets/img/2048px-Angular_full_color_logo.png"
+          />
+          <h3 class="logoTitleSimple">Angular</h3>
+          <div class="loadingContainer"><div class="loadingAngular"></div></div>
+        </div>
       </div>
       <div class="secondSkills">
         <div class="skillsIconsContainer">
@@ -107,7 +121,7 @@
       <div class="containerTitlte">
         <h1 class="projectsTitle">Alguns dos meus projetos</h1>
       </div>
-      <div class="containerProject"><h3 class="emBreve">Em Breve ...</h3></div>
+      <div class="containerProject"><h3 class="emBreve">Building ...</h3></div>
     </div>
   </section>
 </div>

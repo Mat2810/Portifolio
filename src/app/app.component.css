@@ -33,8 +33,11 @@ h3 {
   margin: 0;
   margin-top: 35%;
   transform: rotate(270deg);
+  transition: 0.5s;
 }
-
+.buttons:hover {
+  transform: rotate(360deg);
+}
 .home {
   display: flex;
   width: 100%;
@@ -98,6 +101,7 @@ h3 {
   height: 100%;
   width: 100%;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -146,7 +150,6 @@ p {
 
 .underContainer {
   display: flex;
-  flex-direction: column;
   padding: 0;
   margin: 0;
   padding-top: 10%;
@@ -173,6 +176,7 @@ p {
   background-color: black;
   justify-content: center;
   flex-direction: column;
+  padding-top: 50px ;
 }
 
 .skillsTitle {
@@ -218,6 +222,7 @@ p {
   width: 100%;
   margin: 0;
   justify-content: space-around;
+  padding-top: 30px;
 }
 
 .secondSkills {
@@ -260,7 +265,7 @@ p {
 .loadingJS {
   display: flex;
   height: 100%;
-  width: 45%;
+  width: 15%;
   background-color: rgb(73.33%, 56.08%, 81.57%);
   border-radius: 20px;
 }
@@ -306,7 +311,7 @@ p {
   border-bottom: 1px solid white;
   padding-bottom: 20px;
   margin-left: 3% ;
-  padding-top: 10px;
+  padding-top: 60px;
 }
 
 .projectsTitle {
@@ -323,6 +328,7 @@ p {
   display: flex;
   width: 100%;
   height: 200px;
+  padding-top: 60px;
 }
 
 .emBreve {
@@ -331,4 +337,30 @@ p {
   margin-top: 80px;
   font-size: 30px;
   color: white;
+}
+
+.loadingAngular {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  background-color: rgb(73.33%, 56.08%, 81.57%);
+  border-radius: 20px;
+}
+
+.matIcon {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+  padding-left: 10%;
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  width: 20%;  
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
 }
